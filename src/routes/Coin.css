@@ -14,10 +14,12 @@
 }
 
 .rank-btn {
-    border: 1px solid #fd0808;
-    box-shadow: 0px 0px 8px #360b03;
-    background-color: #ff1900;
+    border: 1px solid #0cfd08;
+    box-shadow: 0px 0px 8px #93c68f;
+    background-color: #00ff11;
     border-radius: 8px;
+    font-size: large;
+    color: black;
     padding: .2rem;
 }
 
