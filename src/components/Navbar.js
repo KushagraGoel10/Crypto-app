@@ -6,7 +6,8 @@ import './Navbar.css';
 const Navbar = () => {
     const [query, setQuery] = useState(''); // State to store search input
     const navigate = useNavigate(); // For navigation
-
+    
+    
     // Function to handle form submission
     const handleSearch = (e) => {
         e.preventDefault();
@@ -34,10 +35,11 @@ const Navbar = () => {
                     onChange={(e) => setQuery(e.target.value)}
                     className='search-input'
                 />
-                <button type='submit' className='search-button'>
-                    Search
+                <button type='submit' className='search-button'>Search button 
+                    
+
                 </button>
-            </form>
+                </form>
         </div>
     );
 };
